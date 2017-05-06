@@ -4,7 +4,7 @@ Merhaba
 Codeigniter Breadcrumb Kütüphanesini Nasıl Kullanmalısınız ?
 
 Projenizin libraries klasörüne Breadcrumb.php dosyasını ekleyin.
-Conig/autoload.php içersinde $autoload['libraries'] = 'Breadcrumb' şeklinde yada Controller dosyanızın __construct() methodunda $this->load->library('Breadcrumb'); şeklinde çağırabilirsiniz.
+Config/autoload.php içersinde $autoload['libraries'] = 'Breadcrumb' şeklinde yada Controller dosyanızın __construct() methodunda $this->load->library('Breadcrumb'); şeklinde çağırabilirsiniz.
 
 Breadcrumb ekleme $this->bc->addCrumb('Başlık','Link');
 		              $this->bc->addCrumb('Başlık','Link');
