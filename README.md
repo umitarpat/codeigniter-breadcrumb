@@ -9,6 +9,7 @@ Config/autoload.php içersinde $autoload['libraries'] = 'breadcrumb' şeklinde y
 Breadcrumb ekleme $this->breadcrumb->addCrumb('Başlık','Link');
 		  $this->breadcrumb->addCrumb('Başlık','Link');
                   
-Breadcrumb render etmek için view dosyanızda <?php echo $this->breadcrumb->makeBread();?> şeklinde ekrana basabilirsiniz.
+Breadcrumb render etmek için view dosyanızda 
+<php $this->breadcrumb->makeBread(); php> şeklinde ekrana basabilirsiniz.
 
 İyi kodlamalar...      
