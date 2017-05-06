@@ -1,5 +1,16 @@
-<?php 
-defined('BASEPATH') OR exit('No direct script access allowed');
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+/**
+ * Breadcrumb Class
+ *
+ * This class manages the breadcrumb object
+ *
+ * @package		Breadcrumb
+ * @version		1.0
+ * @author 		Ümit Arpat <umitarpatkou@gmail.com>
+ * @copyright 		Copyright (c) 2014
+ * @link		https://github.com/umitarpat/codeigniter-breadcrumb
+ */
 
 class Breadcrumb{
 	var $ci;
