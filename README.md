@@ -10,6 +10,6 @@ Breadcrumb ekleme $this->breadcrumb->addCrumb('Başlık','Link');
 		  $this->breadcrumb->addCrumb('Başlık','Link');
                   
 Breadcrumb render etmek için view dosyanızda 
-<php $this->breadcrumb->makeBread(); php> şeklinde ekrana basabilirsiniz.
+<php echo $this->breadcrumb->makeBread(); php> şeklinde ekrana basabilirsiniz.
 
 İyi kodlamalar...      
